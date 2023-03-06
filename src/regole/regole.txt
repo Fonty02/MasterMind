@@ -1,0 +1,19 @@
+Nella versione originale di Mastermind, il codice segreto è di quattro cifre e il codificatore ha a
+disposizione, per comporlo, le dieci cifre del sistema decimale standard (0,1,2,3,4,5,6,7,8,9).
+
+Dopo che il codificatore ha composto il codice, il decodificatore fa il suo primo tentativo, cercando
+di indovinare il codice. Il codificatore, appena il suo avversario ha completato il tentativo, fornisce
+degli aiuti comunicando:
+- Il numero di cifre giuste al posto giusto, cioè le cifre del tentativo che sono
+effettivamente presenti nel codice al posto tentato.
+- Il numero di cifre giuste al posto sbagliato, cioè le cifre del tentativo che sono
+effettivamente presenti nel codice, ma non al posto tentato.
+Non bisogna comunicare quali cifre sono giuste o sbagliate ma solo quante. Se il decodificatore
+riesce ad indovinare il codice entro il numero di tentativi predeterminati (solitamente i tentativi
+sono 9) allora quest'ultimo vince la partita, altrimenti vince il codificatore.
+
+In questo gioco sono presenti tre modalità:
+
+1) Principiante: In questo casono i simboli sono 6 (0,1,2,3,4,5), il codice da indovinare è lungo 3 cifre, si hanno 20 tentativi a disposizione e non ci sono elementi ripetuti
+2) Intermedio: In questo casono i simboli sono 8 (0,1,2,3,4,5,6,7), il codice da indovinare è lungo 4 cifre, si hanno 15 tentativi a disposizione e non ci sono elementi ripetuti
+3) Avanzato: In questo casono i simboli sono 10 (0,1,2,3,4,5,6,7,8,9), il codice da indovinare è lungo 4 cifre, si hanno 9 tentativi a disposizione e ci sono elementi ripetuti
